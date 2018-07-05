@@ -9,7 +9,7 @@ while exit == 1:
     if status != 0:
         print "There was an error flashing, make sure your Ducky is in DFU mode"
         print
-    print "      Welcome to ducky-flasher"
+    print "      Welcome to ducky-flasher by KCSEC"
     print "              _.._            "
     print "             /   a\__,        "
     print "             \  -.___/        "
@@ -22,10 +22,10 @@ while exit == 1:
     print
     print
     print "Which firmware would you like to flash?"
-    print "1. Original (duck.hex)"
-    print "2. FAT Duck (usb.hex)"
-    print "3. Detour Duck (m_duck.hex)"
-    print "4. Twin Duck (c_duck.hex)"
+    print "1. Original (duck.hex) - updated v2.1"
+    print "2. FAT Duck (usb.hex) - updated v2.1"
+    print "3. Detour Duck (m_duck.hex) - Version v2"
+    print "4. Twin Duck (c_duck.hex) - updated v2.1"
     print
     print "99. Exit ducky-flasher"
     print
@@ -35,13 +35,13 @@ while exit == 1:
         os.system("clear")
         print "Description of Original Firmware"
         print ""
-        print "Would you like to flash your ducky with The original firmware?"
+        print "Would you like to flash your ducky with The original firmware? (Latest v2.1)"
         print "1 = yes"
         print "2 = no"
         flash = int(raw_input("Choice: "))
         if flash == 1:
             os.system("clear")
-            status = os.system("sudo dfu-programmer at32uc3b1256 erase; sudo dfu-programmer at32uc3b1256 flash --suppress-bootloader-mem Firmware/duck_v2.hex; sudo dfu-programmer at32uc3b1256 reset")
+            status = os.system("sudo dfu-programmer at32uc3b1256 erase; sudo dfu-programmer at32uc3b1256 flash --suppress-bootloader-mem Firmware/duck_v2.1.hex; sudo dfu-programmer at32uc3b1256 reset")
             if status == 0:
                 os.system("clear")
                 print "Your duck has been flashed, would you like to return to the main menu?"
@@ -55,13 +55,13 @@ while exit == 1:
         os.system("clear")
         print "Description of FAT Duck"
         print
-        print "Would you like to turn your Ducky into a expensive Flash Drive?"
+        print "Would you like to turn your Ducky into a expensive Flash Drive? (Latest v2.1)"
         print "1 = yes"
         print "2 = no"
         flash = int(raw_input("Choice: "))
         if flash == 1:
             os.system("clear")
-            status = os.system("sudo dfu-programmer at32uc3b1256 erase; sudo dfu-programmer at32uc3b1256 flash --suppress-bootloader-mem Firmware/USB_v2.hex; sudo dfu-programmer at32uc3b1256 reset")
+            status = os.system("sudo dfu-programmer at32uc3b1256 erase; sudo dfu-programmer at32uc3b1256 flash --suppress-bootloader-mem Firmware/USB_v2.1.hex; sudo dfu-programmer at32uc3b1256 reset")
             if status == 0:
                 os.system("clear")
                 print "Your duck has been flashed, would you like to return to the main menu?"
@@ -74,7 +74,7 @@ while exit == 1:
         os.system("clear")
         print "Description of Original Firmware"
         print
-        print "Would you like to flash your ducky with Detour Duck?"
+        print "Would you like to flash your ducky with Detour Duck? (v2)"
         print "1 = yes"
         print "2 = no"
         flash = int(raw_input("Choice: "))
@@ -101,12 +101,12 @@ while exit == 1:
         print "Special Request 2 executes on pressing the GPIO pin"
         print
         print "Which version do you want to flash?"
-        print "1 = Original"
-        print "2 = Special Request 1"
-        print "3 = Special Request 2"
+        print "1 = Original (Latest v2.1)"
+        print "2 = Special Request 1 (v2)"
+        print "3 = Special Request 2 (v2)"
         flash = int(raw_input("Choice: "))
         if flash == 1:
-            status = os.system("sudo dfu-programmer at32uc3b1256 erase; sudo dfu-programmer at32uc3b1256 flash --suppress-bootloader-mem Firmware/c_duck_v2.hex; sudo dfu-programmer at32uc3b1256 reset")
+            status = os.system("sudo dfu-programmer at32uc3b1256 erase; sudo dfu-programmer at32uc3b1256 flash --suppress-bootloader-mem Firmware/c_duck_v2.1hex; sudo dfu-programmer at32uc3b1256 reset")
             os.system("clear")
             if status == 0:
                 os.system("clear")
@@ -138,4 +138,4 @@ while exit == 1:
         exit = 2
         
 os.system("clear")
-print "Thank you for using ducky-flasher"
+print "Thank you for using the KCSEC ducky-flasher"
