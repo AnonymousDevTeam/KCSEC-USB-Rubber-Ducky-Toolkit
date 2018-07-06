@@ -106,7 +106,7 @@ while exit == 1:
         print "3 = Special Request 2 (v2)"
         flash = int(raw_input("Choice: "))
         if flash == 1:
-            status = os.system("sudo dfu-programmer at32uc3b1256 erase; sudo dfu-programmer at32uc3b1256 flash --suppress-bootloader-mem Firmware/c_duck_v2.1hex; sudo dfu-programmer at32uc3b1256 reset")
+            status = os.system("sudo dfu-programmer at32uc3b1256 erase; sudo dfu-programmer at32uc3b1256 flash --suppress-bootloader-mem Firmware/c_duck_v2.1.hex; sudo dfu-programmer at32uc3b1256 reset")
             os.system("clear")
             if status == 0:
                 os.system("clear")
