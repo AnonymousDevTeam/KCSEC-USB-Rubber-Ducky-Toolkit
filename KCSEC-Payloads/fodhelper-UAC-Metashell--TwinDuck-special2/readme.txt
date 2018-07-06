@@ -2,7 +2,7 @@ Fodhelper bypass to Metasploit reverse shell
 
 ** Key info **
 
-* Twin Duck Speical 2 required (See Ducky Flasher OR Firmwarelist)
+* Twin Duck Special 2 required (See Ducky Flasher OR Firmware list)
 * Drive must be called KCSEC to work (Can be changed in ducky code)
 * meterpreter-32.ps1 Must be changed to have the right IP/Port
 * Ducky_code.txt shows inject.bin decoded (Not needed for setup)
@@ -16,7 +16,7 @@ This bypasses UAC and runs the metasploit shell with admin rights without a UAC 
 
 ** Files ** 
 
-* Inject.bin = HID attack to launch fod.ps1 (Softcoded drive name KCSEC)
+* Inject.bin = HID attack to launch fod.ps1 (Soft-coded drive name KCSEC)
 * fod.ps1 = Fodhelper UAC Bypass (Inc Softcoded payload name "meterpreter-32.ps1")
 * meterpreter-32.ps1 = Meterpretershell psh (Hardcoded IP/Port)
 
