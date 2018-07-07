@@ -25,3 +25,14 @@ KCSEC Ducky-Payloads
       (KCSEC-Payloads/fodhelper-UAC-Metashell--TwinDuck-Orginal)
 - Ducky commands runs a hidden powershell calling the fod.ps1 
 - This bypasses UAC and runs the metasploit shell with admin rights without a UAC prompt
+
+3. Fod Bypass to Empire Launcher for Twin Duck Special 2
+   (KCSEC-Payloads/fodhelper-UAC-EmpireLaunch--TwinDuck-Special2)
+- Ducky commands runs a hidden powershell calling the fod.ps1 
+- This bypasses UAC and runs the Empire Launcher with admin rights without a UAC prompt
+
+4. Fod Bypass to Empire Launcher for Twin Duck Orginal
+   (KCSEC-Payloads/fodhelper-UAC-EmpireLaunch--TwinDuck-Orginal)
+- Ducky commands runs a hidden powershell calling the fod.ps1 
+- This bypasses UAC and runs the Empire Launcher with admin rights without a UAC prompt
+
