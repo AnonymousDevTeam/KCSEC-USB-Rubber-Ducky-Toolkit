@@ -2,7 +2,8 @@ Fodhelper bypass to Metasploit reverse shell
 
 ** Key info **
 
-* Twin Duck Special 2 required (See Ducky Flasher OR Firmware list)
+* Twin Duck orginal required (See Ducky Flasher OR Firmware list)
+* This version has a delay added to allow the USB Storage to mount
 * Drive must be called KCSEC to work (Can be changed in ducky code)
 * meterpreter-32.ps1 Must be changed to have the right IP/Port
 * Ducky_code.txt shows inject.bin decoded (Not needed for setup)
@@ -24,7 +25,7 @@ More info on fodhelper UAC bypass here https://pentestlab.blog/tag/fodhelper/
 
 ** How to use **
 
-1. Flash rubber ducky TwinDuck Special 2 
+1. Flash rubber ducky TwinDuck Orginal
    c_duck_v2_S002.hex (Can use Ducky-flasher)
 
 2. rename Rubber Ducky SDCARD to "KCSEC" (inject.bin requires this to launch fod.ps1)
@@ -40,7 +41,7 @@ More info on fodhelper UAC bypass here https://pentestlab.blog/tag/fodhelper/
 
 
 Once the above is done either reset or unplug/replug your new KCSEC Rubber Ducky to use 
-Then press button to activate
+Then press button to re-execute activate
 
 
 (You must have inject.bin + fod.ps1 + meterpreter-32.ps1 on the root of the KCSEC Rubber ducky drive)
