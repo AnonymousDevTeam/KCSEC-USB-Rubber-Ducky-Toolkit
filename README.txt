@@ -16,7 +16,12 @@ KCSEC Changes
 
 KCSEC Ducky-Payloads
 
-1. Fod Bypass to Metasploit reverse shellfor Twin Duck Special 2
+1. Fod Bypass to Metasploit reverse shell for Twin Duck Special 2
       (KCSEC-Payloads/fodhelper-UAC-Metashell--TwinDuck-special2)
+- Ducky commands runs a hidden powershell calling the fod.ps1 
+- This bypasses UAC and runs the metasploit shell with admin rights without a UAC prompt
+
+2.Fod Bypass to Metasploit reverse shell for Twin Duck Original
+      (KCSEC-Payloads/fodhelper-UAC-Metashell--TwinDuck-Orginal)
 - Ducky commands runs a hidden powershell calling the fod.ps1 
 - This bypasses UAC and runs the metasploit shell with admin rights without a UAC prompt
