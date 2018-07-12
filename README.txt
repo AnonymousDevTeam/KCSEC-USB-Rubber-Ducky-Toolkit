@@ -6,6 +6,12 @@
 
 The USB Rubber Ducky is a Human Interface Device programmable with a simple scripting language allowing penetration testers to quickly and easily craft and deploy security auditing payloads that mimic human keyboard input. The source is written in C and requires the AVR Studio 5 IDE from atmel.com/avrstudio. Hardware is commercially available at hakshop.com. Tools and payloads can be found at usbrubberducky.com. Quack!
 
+Check out More from KCSEC
+---------------------
+Website - https://www.ivoidwarranties.tech/
+Facebook - https://www.facebook.com/KCovertSEC/
+Github - https://github.com/KCSEC
+
 
 KCSEC Rubber Ducky Toolkit Upgrades 
 ---------------------
@@ -22,7 +28,7 @@ Ducky-Payloads are the Custom Inject.bin files for the Rubber-Ducky to Allow Exe
 
 1. Windows 10 - Fodhelper UAC Bypass Exploit To host-Payload
    Currently working 2018 Windows 10 UAC bypass Exploit - Requires user to have admin permissions
-** More info on fodhelper UAC bypass here https://pentestlab.blog/tag/fodhelper/ **
+   * More info on fodhelper UAC bypass here https://pentestlab.blog/tag/fodhelper/
 
 
 
